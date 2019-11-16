@@ -1,0 +1,164 @@
+.SignupContainer {
+    height: 600px;
+    width: 960px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #3157C5;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3vw auto 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.BottomContainer {
+    width: 960px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #3157C5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto 5%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Separator {
+    height: 80%;
+    width: 1px;
+    border-left: 1px solid #ffffff;
+}
+
+.WizitorsIcon {
+    width: 120px;
+    height: 120px;
+}
+
+.InfoSection {
+    margin-left: 10px;
+    width: 40%;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.InfoSection h1 {
+    margin-bottom: 1px;
+}
+
+.InfoSection h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.InfoSection p {
+    font-size: x-large;
+    text-align: center;
+}
+
+.FieldsContainer {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FieldContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.RadiosContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.RadioField {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+.FieldContainer label {
+    color: #ffffff;
+    align-self: flex-start;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.FieldContainer input {
+    width: 400px;
+    height: 22px;
+    padding: 15px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.FieldContainer input:focus {
+    border: none;
+    /* outline: none; is important otherwise chrome will
+       create blue border around everything you focus. */
+    outline: none;
+}
+
+.ErrorMsgContainer {
+    height: 18px;
+    width: 400px;
+    align-self: flex-start;
+    font-size: large;
+    color: #ff0f2e;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.SignupButton {
+    font-size: 20px;
+    color: #3157C5;
+    text-transform: uppercase;
+    margin-top: 15px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 25px;
+    outline: none;
+}
+
+.SignupButton:hover {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #fafafa;
+    outline: none;
+}
+
+.SignupButton:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.Link {
+    color: #ffffff;
+}

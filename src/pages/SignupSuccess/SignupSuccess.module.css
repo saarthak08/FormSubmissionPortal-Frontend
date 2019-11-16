@@ -1,0 +1,86 @@
+.Page {
+    height: 100%;
+    width: 100%;
+}
+
+.Container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 200px;
+    width: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Heading {
+    color: #3157C5;
+    font-size: 50px;
+}
+
+.SubHeading {
+    color: #3157C5;
+    font-size:25px;
+}
+
+.Resend {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 150px;
+    width: 700px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Note {
+    color: #3157C5;
+    font-size: 30px;
+}
+
+.Button {
+    border: 2px solid #3157C5;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: #3157C5;
+    cursor: pointer;
+}
+
+.Button:active {
+    box-shadow: none;
+}
+
+.Backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Alert {
+    z-index: 1100;
+    position: fixed;
+    z-index: 1200;
+    top: 20%;
+    left: calc(50% - 200px);
+    height: 120px;
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #3157C5;
+    color: #3157C5;
+    font-size: 30px;
+}
